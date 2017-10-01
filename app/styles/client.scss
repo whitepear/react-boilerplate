@@ -1,0 +1,39 @@
+/*
+  Main application stylesheet. Point of import for multiple partial
+  component-specific/util stylesheets, in addition to very general
+  application styles.
+*/
+
+// import distinct stylesheets and component-specific styles
+@import 'partials/_normalize.scss';
+@import 'partials/_mainContainer.scss';
+
+
+// General styles
+///////////////////////
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	color: #555;
+	background: #eee;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#app {
+	min-height: 100%;
+}
+
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}

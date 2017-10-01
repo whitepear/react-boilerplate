@@ -1,0 +1,24 @@
+.container {
+  padding: 18px 15px auto 15px;
+  margin: 0 auto;
+  background: #fff;
+  min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
